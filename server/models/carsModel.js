@@ -26,18 +26,19 @@ const Car = db.define("car", {
     },
 
     price:{
-        type: DataTypes.FLOAT,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
 
-    categoriesId: {
+/*     categoriesId: {
         type: DataTypes.STRING,
+        allowNull: false
     },   
 
     discountId: {
         type: DataTypes.STRING,
         allowNull:true
-    },   
+    },    */
     
     status: {
         type: DataTypes.STRING,
