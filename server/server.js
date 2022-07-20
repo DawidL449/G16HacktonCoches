@@ -3,13 +3,15 @@ const { db } = require("./utils/database");
 
 const PORT = process.env.PORT || 5003;
 
-const { Categorie } = require("./models/categoriesModel")
+const { Categorie } = require("./models/categoriesModel");
+const { Motobike } = require("./models/motoBikeModel");
+const { Car } = require("./models/carsModel");
 
 db.authenticate()
   .then(() => console.log("Successful connection to Databases"))
   .catch((err) => console.log(err));
 
-db.sync({force: true})
+db.sync()
   .then(() => console.log("Database synced"))
   .catch((err) => console.log(err));
 //Listen the server
