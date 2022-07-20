@@ -1,7 +1,7 @@
 const { app } = require("./app");
 const { db } = require("./utils/database");
 
-const PORT = process.env.PORT || 5003;
+const PORT = process.env.PORT || 5000;
 
 const { Categorie } = require("./models/categoriesModel");
 const { Motobike } = require("./models/motoBikeModel");
