@@ -1,7 +1,7 @@
 # G16HacktonCoches
 
 <h2>Hackathon F5 2022</h2>
-Integrantes:
+Integrantes:<br></br>
 Edurne Martinez<br></br>
 Juan Daniel Castaño Castañeda<br></br>
 Alejandra Naranjo Salinas<br></br>
@@ -15,72 +15,33 @@ Guillermo García del Río<br></br>
 1. ¿Cuáles son los principales objetos del dominio en un
 marketplace?<br></br>
 
-● Anuncio ⇒ el contenido publicado:
-○ Pisos, casas, locales, ... en fotocasa o habitaclia
-○ Ofertas de trabajo en InfoJobs
-○ coches o motos en ¿adivinas?
-○ Casi de todo (incluyendo lo anterior) en milanuncios
-● Usuario ⇒ la persona que busca contenido o está interesada en un anuncio
-○ de forma gratuita!
-● Cliente ⇒ la persona o empresa que publica contenido
-○ también llamado “anunciante” o “usuario profesional”
-○ el cliente paga por publicar contenido
+● Anuncio ⇒ el contenido publicado.<br></br>
+
+● Cliente ⇒ la persona o empresa que publica contenido también llamado “anunciante” o “usuario profesional”.<br></br>
 
 ● Contacto ⇒ cuando la persona que busca se interesa por un
-anuncio y decide contactar con el anunciante
-○ un perfect match!
-Y algunas de las principales funcionalidades de los marketplaces:
+anuncio y decide contactar con el anunciante.<br></br>
 
-● Búsqueda:
-○ filtrar por características del anuncio
-○ filtrar usando un texto libre
-○ por zona geográfica
+● Búsqueda.<br></br>
 
-● Anuncios favoritos
+● Anuncios favoritos.<br></br>
 
 ● Alertas ⇒ notificaciones cuando hay nuevos anuncios que cumplen mis
-búsquedas o algún otro criterio
+búsquedas o algún otro criterio.<br></br>
 
 2. ¿Cuál es el proyecto propuesto ?<br></br>
 En este hackathon os invitamos a construir vuestro propio marketplace
-Algunos consejos para empezar:
+Algunos consejos para empezar:<br></br>
 
-● Decidid la temática de vuestro marketplace:
-○ ¿Qué se va a anunciar? ¿Cómo va a determinar esto el diseño de la
-página?
-○ ¿A qué público va a estar dirigido? ¿Qué perfil de usuario va a usar la
-página?
-○ ¿cómo va a ayudar a sus usuarios? ¿Como se va a usar la página? ?
+● Decidid la temática de vuestro marketplace.<br></br>
 
-● Escoged un nombre pegadizo...
-○ ¡La marca es importante!
-○ ¿Algún lema para vuestro marketplace?
+● Escoged un nombre pegadizo.<br></br>
 
-● Modelad el anuncio:
-○ ¿Qué atributos tiene vuestro anuncio?
-○ ¿Qué valores pueden tomar esos atributos?
-○ ¿Qué atributos son obligatorios y cuáles no?
-
-● Es importante primero desarrollar las funcionalidades básicas, pensar en
-pequeños cambios e ir iterando y mejorando a medida que se vayan
-terminando. Estas son :
-○ Página principal con el listado de anuncios
-○ Cada anuncio tendrá una página con los detalles. con el detalle de un
-anuncio
+● Modelad el anuncio.<br></br>
 
 ● Una vez terminadas, Si tenéis ganas de más podéis continuar con alguna
-funcionalidad extra:
-○ Búsqueda (de cualquier tipo)
-○ Contacto
-○ Favoritos
-Alertas de disponibilidad del artículo
-○ ¡Cualquier otra funcionalidad que se os ocurra!
+funcionalidad extra. <br></br>
 
-● No os compliqueis, no hace falta implementar:
-○ login de usuario
-○ publicación de anuncios (usad un conjunto de anuncios
-pre-cargado)
-○ persistencia en base de datos
 
 <h3>Consejos finales</h3>
 ¡Tened siempre en cuenta qué es lo mejor para vuestros usuarios!
