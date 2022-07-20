@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export const Inicio = () => {
-  return (
-    <div>
-        <h1>Esta es la pagina de Inicio</h1>
-        </div>
-  )
+export class Inicio extends Component {
+  render() {
+    return (
+      <div>Inicio</div>
+    )
+  }
 }
+
+export default Inicio
