@@ -1,11 +1,19 @@
 # G16HacktonCoches
 
-##Hackathon F5 2022
+<h2>Hackathon F5 2022</h2>
+Integrantes:
+Edurne Martinez<br></br>
+Juan Daniel Castaño Castañeda<br></br>
+Alejandra Naranjo Salinas<br></br>
+Rosa Estela Becerra Medina<br></br>
+Dawid Lempicki<br></br>
+Ainara A. Martínez<br></br>
+Guillermo García del Río<br></br>
 
-###Ficha de proyecto “Construye tu propio Marketplace”
+<h3>Ficha de proyecto “Construye tu propio Marketplace”</h3>
 
 1. ¿Cuáles son los principales objetos del dominio en un
-marketplace?
+marketplace?<br></br>
 
 ● Anuncio ⇒ el contenido publicado:
 ○ Pisos, casas, locales, ... en fotocasa o habitaclia
@@ -14,7 +22,6 @@ marketplace?
 ○ Casi de todo (incluyendo lo anterior) en milanuncios
 ● Usuario ⇒ la persona que busca contenido o está interesada en un anuncio
 ○ de forma gratuita!
-
 ● Cliente ⇒ la persona o empresa que publica contenido
 ○ también llamado “anunciante” o “usuario profesional”
 ○ el cliente paga por publicar contenido
@@ -34,7 +41,7 @@ Y algunas de las principales funcionalidades de los marketplaces:
 ● Alertas ⇒ notificaciones cuando hay nuevos anuncios que cumplen mis
 búsquedas o algún otro criterio
 
-2. ¿Cuál es el proyecto propuesto ?
+2. ¿Cuál es el proyecto propuesto ?<br></br>
 En este hackathon os invitamos a construir vuestro propio marketplace
 Algunos consejos para empezar:
 
@@ -75,7 +82,7 @@ Alertas de disponibilidad del artículo
 pre-cargado)
 ○ persistencia en base de datos
 
-Consejos finales
+<h3>Consejos finales</h3>
 ¡Tened siempre en cuenta qué es lo mejor para vuestros usuarios!
 ¡Aprovechad esta oportunidad para divertiros, aprender, y trabajar en equipo!
 ¡Procurad desarrollar en pareja siempre que sea posible y tomar descansos! Esto va a ser
