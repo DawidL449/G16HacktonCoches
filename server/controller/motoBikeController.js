@@ -9,7 +9,6 @@ const getAllMotobike = async (req, res) => {
 
 const createMotobike = async (req, res) => {
   const { brand, model, color, price } = req.body;
-  console.log(brand, model, color, price);
 
   const addMotobike = await Motobike.create({ brand, model, color, price });
 
