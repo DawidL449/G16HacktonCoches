@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App{
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+nav{ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1200px;
+}
+
+nav > ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+nav > button{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background: #ff4597;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: rgb(255 69 151 / 80%) 0px 4px 16px 0px;
+
+}
+
+.sectionHome{
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.sectionHome > h1{
+ font-size: 36px;
+ width: 35%;
+ color: #021859;
+}
+
+.content-offers{
+  margin-top: 3rem;
+}
+
+.content-offers > h2{
+  text-align: center;
+  color: #021859;
+  font-size: 28px;
+}
+
+.content-offers > p{
+  margin: 15px 0px;
+  color: #021859;
+  font-size: 14px;
+  text-align: center;
+}
+
+.content-car{ 
+  border-radius: 10px;
+}
+
+.content-car img{
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title-brand{
+  color: #021859;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.content-car{
+  display: flex;
+  background-color: transparent;
+  gap: 20px;
+}
+
+.content-car > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgb(195 205 224 / 80%) 0px 2px 16px 0px;
+  border-radius: 10px;
+}
+
+.content-info{
+  display: flex;
+  align-items: center;
+  gap: 80px; 
+  padding: 10px;
+}
+
+.price{
+  color: #0b9ed9;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.content-car > div button{
+  padding: 10px;
+  width: 80%;  
+  margin: 15px 0px;
+  background: none;
+  border: 1px solid #0b9ed9;
+  border-radius: 10px;
+  color: #0b9ed9;
+  font-weight: 700;
+  font-size: 15px;
+}
