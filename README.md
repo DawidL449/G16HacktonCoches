@@ -34,7 +34,7 @@ anuncio<br></br>
 ## Entrega:
 <ul>
 <li> Un link a un repositorio de github.</li>
-<li>Link al apoyo de la presentación y documentación sobre implementaciones técnicas <a href="https://docs.google.com/document/d/1lUFtvir3tLtZFnODxsph6OE7wQ1VTzrJR7DiPWDG5wQ/"</li>
+<li>Link al apoyo de la presentación y documentación sobre implementaciones técnicas <a href="https://docs.google.com/document/d/1lUFtvir3tLtZFnODxsph6OE7wQ1VTzrJR7DiPWDG5wQ/">ENLACE</a></li>
 <li>Demo y code review.</li>
 </ul>
 
@@ -77,13 +77,13 @@ Prototype de cómo pensábamos que deberían ser las pantallas y sus funcionalid
 
 PROTOTYPES<br></br>
   <div align="center">
-    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="50px" height="50px"</img> 
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="150px" height="150px"</img> 
  </div>
   <div align="center">
-    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-33 Figma.png" width="50px" height="50px"</img> 
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-33 Figma.png" width="150px" height="150px"</img> 
  </div>
   <div align="center">
-    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-59 Figma.png" width="50px" height="50px"</img> 
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-59 Figma.png" width="150px" height="150px"</img> 
  </div>
     
 
