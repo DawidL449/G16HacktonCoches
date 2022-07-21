@@ -1,5 +1,6 @@
 const { app } = require("./app");
 const { db } = require("./utils/database");
+require('./utils/firebase')
 
 const PORT = process.env.PORT || 5000;
 

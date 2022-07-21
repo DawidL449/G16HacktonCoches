@@ -6,7 +6,7 @@ import Section from '../section/Section';
 const Home = () => {
     return (
         <div className="App">
-        <Nav /> 
+        <Nav text="Crear Anuncio"/> 
         <Section />
         <Offers />
       </div>
