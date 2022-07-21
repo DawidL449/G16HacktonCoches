@@ -1,6 +1,7 @@
 const { app } = require("./app");
 const { db } = require("./utils/database");
 require('./utils/firebase')
+require('./models/adsModel')
 
 const PORT = process.env.PORT || 5000;
 
