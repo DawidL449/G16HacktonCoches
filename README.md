@@ -71,17 +71,17 @@ anuncio<br></br>
 ***
 ***
 
-## 🛠️ Mockup de este proyecto
+## 🛠️ Prototype de este proyecto
 
-Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
+Prototype de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:<br></br>
 
-<p align="center"> 
-PROTOTYPES
-  ![imagen](https://user-images.githubusercontent.com/104829409/180156656-6b86d7e3-de3c-4aa0-944f-58d067cbc13e.png)
-  ![imagen](https://user-images.githubusercontent.com/104829409/180156762-9fb8bd8e-a91a-4cfd-bda4-ec0934824e34.png)
-  ![imagen](https://user-images.githubusercontent.com/104829409/180156833-1841527e-099b-4f14-84ca-7094f1b27dc5.png)
-  
-</p>
+PROTOTYPES<br></br>
+  <div align="center">
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="100px"</img> 
+     <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="</img> 
+      <img src="/screenshots/Screenshot 2022-07-21 at 09-31-59 Figma.png" width="100px"</img> 
+</div>
+
 
 ## ✒️ Autores 
 <ul>
