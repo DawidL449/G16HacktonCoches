@@ -35,7 +35,12 @@ nav > button{
   font-weight: 700;
   font-size: 16px;
   box-shadow: rgb(255 69 151 / 80%) 0px 4px 16px 0px;
+  transition: all .2s ease;
+}
 
+nav > :hover {
+  cursor: pointer;
+  background: #f01473;
 }
 
 .sectionHome{
@@ -146,15 +151,16 @@ nav > button{
 }
 .beforeTitle {
   text-align: center;
-  margin-top: 12px;
+  margin-top: 25px;
   font-size: 30px;
 }
 form {
   width: 650px;
-  margin-top: 20px;
+  margin-top: 50px;
   padding: 20px 0px;
   border: 1px solid black;
   border-radius: 8px;
+  margin-bottom: 70px;
 }
 label {
   font-size: 24px;
@@ -201,11 +207,11 @@ label {
   border: 1px solid rgb(206, 203, 203);
 }
 .buttons {
-  width: 650px;
-  margin: 20px auto;
+  width: 80%;
+  margin: auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
 }
 .buttons > button {
   padding: 10px;
@@ -216,6 +222,12 @@ label {
   font-weight: 700;
   font-size: 16px;
   box-shadow: rgba(97, 255, 69, 0.8) 0px 4px 16px 0px;
+  transition: all .2s ease;
+}
+
+.buttons > button:hover {
+  cursor: pointer;
+  background: #368116;
 }
 
 .content-card-offers{
@@ -295,3 +307,104 @@ label {
   font-weight: 700;
   font-size: 15px;
 }
+
+
+
+
+
+
+/* create ads */
+.discount {
+  
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.discount > div > label {
+  margin-right: 5px;
+  font-size: 22px;
+}
+.titleH3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/* footer form */
+.footerForm {
+  margin-top: 5px;
+  width: 100%;
+  height: 200px;
+  background-color: #021859;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.footerTitle {
+  color: white;
+  font-size: 25px;
+}
+.boxButtons {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxButtons > button {
+  font-size: 22px;
+  font-weight: bold;
+  width: 35%;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 3px;
+}
+
+.pink {
+  color: #021859;
+  background-color: #ff4597;
+  transition: all .2s ease;
+}
+.blue {
+  color: #021859;
+  background-color: #0b9ed9;
+  transition: all .2s ease;
+}
+.pink:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.blue:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+/* white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+font-weight: 600;
+border-radius: 28px;
+width: 325px;
+font-size: 21px;
+line-height: 32px;
+padding: 13px 20px;
+  padding-left: 20px;
+vertical-align: middle;
+display: flex;
+margin: 0px auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+-moz-box-pack: center;
+justify-content: center;
+max-width: 100%;
+cursor: pointer;
+color: rgb(255, 255, 255);
+background: rgb(255, 69, 151) none repeat scroll 0% 0%;
+box-shadow: rgba(255, 69, 151, 0.8) 0px 4px 16px 0px;
+border: 1px solid rgb(255, 69, 151); */
