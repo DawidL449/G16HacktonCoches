@@ -49,16 +49,7 @@ nav  button{
   font-weight: 700;
   font-size: 16px;
   box-shadow: rgb(255 69 151 / 80%) 0px 4px 16px 0px;
-<<<<<<< HEAD
-  cursor: pointer;
-=======
   transition: all .2s ease;
-}
-
-nav > :hover {
-  cursor: pointer;
-  background: #f01473;
->>>>>>> 23be06ab257fabbf57bc2e1d56a48051abd0d788
 }
 
 .sectionHome{
