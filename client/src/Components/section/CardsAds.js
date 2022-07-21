@@ -10,6 +10,10 @@ const CardsAds = () => {
       .then((res) => setAllAds(res.data.getAllAds));
   }, []);
 
+ const capitalizar = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
+
   return (
     <div className="cards-ads">
       {allAds.map((data) => {
@@ -18,7 +22,7 @@ const CardsAds = () => {
             <img src={data.img} alt="" />
             <div className="card-info-ads">
               <div>
-                <p className="title-brand">{data.brand}</p>
+                <p className="title-brand">{capitalizar(data.brand)}</p>
                 <p>
                   <span>Modelo:</span> {data.model}
                 </p>

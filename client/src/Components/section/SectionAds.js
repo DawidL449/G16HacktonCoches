@@ -5,7 +5,7 @@ import CardsAds from './CardsAds';
 const SectionAds = () => {
     return (
         <div className='section-ads'>
-            <h1>Alquila tu vehículo</h1>
+            <h1>Compra tu vehículo</h1>
             <p>Todos nuestros anuncios</p>
             <div className='ads-info'>
                 <AsideAds />
