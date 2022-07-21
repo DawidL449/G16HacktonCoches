@@ -55,16 +55,25 @@ const Form = () => {
                         <option value="azul">Azul</option>
                     </select>
                     <label>Precio</label>
-                    <input type="number" name="price" />   
+                    <input type="number" name="price" /> 
                     <div>
-                        <label htmlFor="">Si</label>
-                        <input type="radio" name="discount" value="active"/>
-                        <label htmlFor="">No</label>
-                        <input type="radio" name="discount" value="delete"/>
-                    </div>                 
+                        <h3 className='titleH3'>¿Producto en descuento?</h3>
+                        <div className='discount'>
+                            <div>
+                                <label htmlFor="">Si</label>
+                                <input type="radio" name="discount" value="active"/>
+                            </div>
+                            <div>
+                                <label htmlFor="">No</label>
+                                <input type="radio" name="discount" value="delete"/>
+                            </div>
+                        </div>         
+                    </div>     
                 </div>                
-                <button class="backButton" type='button'>Volver</button>
-                    <button >Publicar</button>
+                <div className='buttons'>
+                    <button className="backButton" type='button'>Volver</button>
+                    <button type=''>Publicar</button>
+                </div>
             </form>
     );
 };
