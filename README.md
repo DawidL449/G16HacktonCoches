@@ -34,7 +34,7 @@ anuncio<br></br>
 ## Entrega:
 <ul>
 <li> Un link a un repositorio de github.</li>
-<li>Link al apoyo de la presentación y documentación sobre implementaciones técnicas <a href="https://docs.google.com/document/d/1lUFtvir3tLtZFnODxsph6OE7wQ1VTzrJR7DiPWDG5wQ/">ENLACE</a></li>
+<li>Link al apoyo de la presentación y documentación sobre implementaciones técnicas <a href="https://docs.google.com/document/d/1lUFtvir3tLtZFnODxsph6OE7wQ1VTzrJR7DiPWDG5wQ/edit?usp=sharing">ENLACE</a></li>
 <li>Demo y code review.</li>
 </ul>
 
