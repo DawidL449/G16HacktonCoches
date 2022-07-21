@@ -77,13 +77,13 @@ Prototype de cómo pensábamos que deberían ser las pantallas y sus funcionalid
 
 PROTOTYPES<br></br>
   <div align="center">
-    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="150px" height="150px"</img> 
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="200px" height="200px"</img> 
  </div>
   <div align="center">
-    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-33 Figma.png" width="150px" height="150px"</img> 
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-33 Figma.png" width="200px" height="200px"</img> 
  </div>
   <div align="center">
-    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-59 Figma.png" width="150px" height="150px"</img> 
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-59 Figma.png" width="200px" height="200px"</img> 
  </div>
     
 
