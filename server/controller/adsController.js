@@ -4,7 +4,8 @@ const { Ads } = require("../models/adsModel");
 
 const createAds = async (req ,res) =>{
 
-const { brand, model, color, price, discount } = req.body    
+const { brand, model, color, price, discount } = req.body 
+console.log(req.file);   
 
 const imgRef = ref( storage, `ads/${req.file.originalname}` )
 const resImg = await uploadBytes( imgRef, req.file.buffer )

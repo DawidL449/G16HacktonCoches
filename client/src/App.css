@@ -87,15 +87,16 @@ nav > button{
 }
 
 .content-car{
-  display: flex;
+  display: flex;  
   background-color: transparent;
-  gap: 20px;
+  width: 100%;
 }
 
 .content-car > div{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 88%;
   box-shadow: rgb(195 205 224 / 80%) 0px 2px 16px 0px;
   border-radius: 10px;
 }
@@ -215,4 +216,82 @@ label {
   font-weight: 700;
   font-size: 16px;
   box-shadow: rgba(97, 255, 69, 0.8) 0px 4px 16px 0px;
+}
+
+.content-card-offers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section-ads{
+  margin-top: 2rem;
+  width: 90%;
+  height: 100vh;
+}
+
+.section-ads > h1{
+  text-align: center;
+  color: #021859;
+}
+
+.ads-info{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-ads > p{
+  margin-top: 0.5rem;
+  text-align: center;
+  color: #021859;
+  font-size: 18px;
+}
+
+.aside-ads{
+  border: solid black 1px;
+  width: 20%;
+  height: 80%;
+}
+
+.cards-ads{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);  
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card-ads{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px;  
+  border-radius: 10px;
+  box-shadow: rgb(195 205 224 / 80%) 0px 2px 16px 0px;
+}
+
+.card-ads img{
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-info-ads{
+  display: flex; 
+  align-items: center;
+  gap: 40px;
+  margin: 5px;
+}
+
+.card-ads button{
+  padding: 10px;
+  width: 80%;  
+  margin: 15px 0px;
+  background: none;
+  border: 1px solid #0b9ed9;
+  border-radius: 10px;
+  color: #0b9ed9;
+  font-weight: 700;
+  font-size: 15px;
 }

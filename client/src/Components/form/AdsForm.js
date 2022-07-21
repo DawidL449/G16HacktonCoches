@@ -1,15 +1,34 @@
+import axios from 'axios';
 import React from 'react';
 
 const Form = () => {
+
+    const dataForm = e =>{
+        e.preventDefault()
+
+        const formData = new FormData(e.target);
+        
+        axios({
+            method: "post",
+            url: "http://localhost:5000/api/v1/ads/createads",
+            data: formData,
+            headers: { "Content-Type": "multipart/form-data" },
+          })
+            .then(function (response) {              
+              console.log(response);
+            })
+      
+    }
+
     return (
-        <form>
+        <form onSubmit={dataForm} encType="multipart/form-data">
                 <div className='file'>
                     <label>Fotografía del anuncio</label>
-                    <input accept="image/jpeg, image/png, image/gif" type="file" />
+                    <input accept="image/jpeg, image/png, image/gif" type="file" name="img" />
                 </div>
                 <div className='inputs'>
                     <label>Marca</label>
-                    <select>
+                    <select name="brand">
                         <option value="volvo">Volvo</option>
                         <option value="saab">Saab</option>
                         <option value="opel">Opel</option>
@@ -25,9 +44,9 @@ const Form = () => {
                         <option value="kia">Kia</option>
                     </select>
                     <label>Modelo</label>
-                    <input type="text" />
+                    <input type="text" name="model" />
                     <label>Color</label>
-                    <select>
+                    <select name="color">
                         <option value="rojo">Rojo</option>
                         <option value="blanco">Blanco</option>
                         <option value="negro">Negro</option>
@@ -36,8 +55,16 @@ const Form = () => {
                         <option value="azul">Azul</option>
                     </select>
                     <label>Precio</label>
-                    <input type="number" />
-                </div>
+                    <input type="number" name="price" />   
+                    <div>
+                        <label htmlFor="">Si</label>
+                        <input type="radio" name="discount" value="active"/>
+                        <label htmlFor="">No</label>
+                        <input type="radio" name="discount" value="delete"/>
+                    </div>                 
+                </div>                
+                <button class="backButton" type='button'>Volver</button>
+                    <button >Publicar</button>
             </form>
     );
 };
