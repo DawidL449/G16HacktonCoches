@@ -9,6 +9,7 @@ const { adsRouter } = require("./routers/adsRoutes");
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 
 app.use('/api/v1/categories', categoriesRouter )
 app.use('/api/v1/cars', carsRouter)
