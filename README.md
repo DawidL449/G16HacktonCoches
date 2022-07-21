@@ -34,7 +34,7 @@ anuncio<br></br>
 ## Entrega:
 <ul>
 <li> Un link a un repositorio de github.</li>
-<li>Presentación en diapositivas + link.</li>
+<li>Link al apoyo de la presentación y documentación sobre implementaciones técnicas <a href="https://docs.google.com/document/d/1lUFtvir3tLtZFnODxsph6OE7wQ1VTzrJR7DiPWDG5wQ/">ENLACE</a></li>
 <li>Demo y code review.</li>
 </ul>
 
@@ -71,17 +71,23 @@ anuncio<br></br>
 ***
 ***
 
-## 🛠️ Mockup de este proyecto
+## 🛠️ Prototype de este proyecto
 
-Mockup de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:
+Prototype de cómo pensábamos que deberían ser las pantallas y sus funcionalidades:<br></br>
 
-<p align="center"> 
-PROTOTYPES
-  ![imagen](https://user-images.githubusercontent.com/104829409/180156656-6b86d7e3-de3c-4aa0-944f-58d067cbc13e.png)
-  ![imagen](https://user-images.githubusercontent.com/104829409/180156762-9fb8bd8e-a91a-4cfd-bda4-ec0934824e34.png)
-  ![imagen](https://user-images.githubusercontent.com/104829409/180156833-1841527e-099b-4f14-84ca-7094f1b27dc5.png)
-  
-</p>
+PROTOTYPES<br></br>
+  <div align="center">
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-02 Figma.png" width="200px" height="200px"</img> 
+ </div>
+  <div align="center">
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-33 Figma.png" width="200px" height="200px"</img> 
+ </div>
+  <div align="center">
+    <img src="/screenshots/Screenshot 2022-07-21 at 09-31-59 Figma.png" width="200px" height="200px"</img> 
+ </div>
+    
+
+
 
 ## ✒️ Autores 
 <ul>
