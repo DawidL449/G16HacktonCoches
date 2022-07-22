@@ -68,13 +68,23 @@ nav  button{
 }
 
 .content-offers{
-  margin-top: 3rem;
+  margin: 50px auto;
+  margin-bottom: 50px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(247, 243, 243);
+ 
 }
 
 .content-offers > h2{
   text-align: center;
+  margin-top: 10px;
   color: #021859;
   font-size: 28px;
+  
 }
 
 .content-offers > p{
@@ -83,13 +93,19 @@ nav  button{
   font-size: 14px;
   text-align: center;
 }
+.content-card-offers {
+  width: 90%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .content-car{ 
   border-radius: 10px;
 }
 
-.content-car img{
-  width: 300px;
+.content-car > img{
+  width: 100%;
   max-height: 200px;
   object-fit: cover;
   border-radius: 10px 10px 0px 0px;
@@ -99,19 +115,15 @@ nav  button{
   color: #021859;
   font-weight: 700;
   font-size: 18px;
+  text-transform: uppercase;
 }
 
-.content-car{
-  display: flex;  
-  background-color: transparent;
-  width: 100%;
-}
-
-.content-car > div{
+.content-car {
   display: flex;
   flex-direction: column;
+  background-color: transparent;
   align-items: center;
-  width: 88%;
+  width: 30%;
   box-shadow: rgb(195 205 224 / 80%) 0px 2px 16px 0px;
   border-radius: 10px;
 }
@@ -139,6 +151,16 @@ nav  button{
   color: #0b9ed9;
   font-weight: 700;
   font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#button {
+  margin-bottom: 10px;
+  background: none;
+  border: 1px solid #0b9ed9;
+  border-radius: 10px;
+  color: #0b9ed9;
+  padding: 10px;
 }
 
 .headerForm {
