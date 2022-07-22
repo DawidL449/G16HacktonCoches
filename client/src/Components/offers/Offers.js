@@ -42,7 +42,7 @@ const Offers = () => {
             return(
 
                 <div className="content-car" key={data.id}>
-                <div>
+                
                   <img src={data.img} alt="" />
                   <div className="content-info">                
                     <div>
@@ -57,11 +57,11 @@ const Offers = () => {
       
                     <p className="price">{new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(data.price)}</p>
                   </div>
-                  <button>Ver Coche</button>
+                  <button id="button">Ver Coche</button>
                 </div>
       
               
-              </div>
+              
 
             )
         } ) }
