@@ -11,8 +11,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-app.use('/api/v1/categories', categoriesRouter )
-app.use('/api/v1/cars', carsRouter)
+console.log("Esto es otro test");
+
+app.use("/api/v1/categories", categoriesRouter);
+app.use("/api/v1/cars", carsRouter);
 app.use("/api/v1/motobike", motoBikeRouter);
 app.use("/api/v1/ads", adsRouter);
 
