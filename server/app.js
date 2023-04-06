@@ -12,6 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 console.log("test");
+console.log('otro rest')
 
 app.use("/api/v1/categories", categoriesRouter);
 app.use("/api/v1/cars", carsRouter);
