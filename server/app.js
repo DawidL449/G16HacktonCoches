@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-console.log("Esto es otro test");
+console.log("test");
 
 app.use("/api/v1/categories", categoriesRouter);
 app.use("/api/v1/cars", carsRouter);
